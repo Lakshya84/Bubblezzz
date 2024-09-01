@@ -24,14 +24,17 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    background: url(https://images.unsplash.com/photo-1614279513537-b7d7463e553a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGJhbGwlMjBibHVlfGVufDB8fDB8fHww);
+    background-size: cover;
 }
 
 .window {
     height: 90%;
     width: 80%;
-    background-color: rgb(178, 197, 231);
+    background-color: rgba(178, 198, 231, 0.342);
     border-radius: 10px;
     overflow: hidden;
+    backdrop-filter: blur(10px);
 }
 
 .nav-bar {
@@ -82,4 +85,5 @@ body {
     align-items: center;
     color: red;
     font-size: 50px;
+    backdrop-filter: sepia(1);
 }
